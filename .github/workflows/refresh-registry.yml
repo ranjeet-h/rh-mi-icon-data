@@ -1,6 +1,6 @@
 name: Refresh icon registry
 
-on:
+"on":
   workflow_dispatch:
     inputs:
       limit:
