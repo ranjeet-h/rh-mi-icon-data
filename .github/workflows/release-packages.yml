@@ -37,14 +37,12 @@ jobs:
         run: npm run test
 
       - name: Publish rh-mi-react
-        if: ${{ secrets.NPM_TOKEN != '' }}
         working-directory: packages/rh-mi-react
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm publish --access public
 
       - name: Publish rh-mi-cli
-        if: ${{ secrets.NPM_TOKEN != '' }}
         working-directory: packages/rh-mi-cli
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
