@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ranjeet-h/rh-mi-icon-data/master/registry/schema/icon.schema.json",
+  "title": "rh-mi icon registry file",
+  "type": "object",
+  "required": ["name", "style", "viewBox", "paths"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "style": {
+      "type": "string",
+      "enum": ["rounded", "outlined", "sharp"]
+    },
+    "viewBox": {
+      "type": "string"
+    },
+    "paths": {
+      "type": "object",
+      "required": ["fill0", "fill1"],
+      "properties": {
+        "fill0": {
+          "type": "string"
+        },
+        "fill1": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "category": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

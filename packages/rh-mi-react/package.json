@@ -1,0 +1,24 @@
+{
+  "name": "rh-mi-react",
+  "version": "0.1.0",
+  "description": "Tiny React runtime for generated rh-mi icons",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8"
+  }
+}
+

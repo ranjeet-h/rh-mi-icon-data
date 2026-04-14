@@ -36,12 +36,12 @@ Result:     only requested icons are generated into your project
 
 ---
 
-## Full Architecture (No Servers, No Hosting Bill)
+## Full Architecture (No Servers, No Hosting Bill, Single Repo)
 
 ```text
                   +--------------------------------------+
                   |  GitHub repo: ranjeet-h/rh-mi-icon-data |
-                  |  (static JSON files + metadata)      |
+                  |  (single repo for code + registry)   |
                   +------------------+-------------------+
                                      |
                                      | jsDelivr CDN
@@ -272,6 +272,26 @@ import { IconProvider } from 'rh-mi-react'
 
 ---
 
+## Single Repo Layout (`ranjeet-h/rh-mi-icon-data`)
+
+```text
+/
++-- packages/
+|   +-- rh-mi-react/
+|   +-- rh-mi-cli/
++-- registry/
+|   +-- metadata.json
+|   +-- aliases.json
+|   +-- rounded/
+|   +-- outlined/
+|   +-- sharp/
++-- scripts/
+|   +-- scraper/
++-- .github/workflows/
+```
+
+---
+
 ## Registry Design (GitHub Static Files)
 
 ### Storage Layout in `ranjeet-h/rh-mi-icon-data`
@@ -409,48 +429,48 @@ rh-mi-icon:
 
 ## Implementation Plan (Detailed)
 
-### Phase 1: Naming + Package Structure
+### Phase 1: Naming + Package Structure ✅ Done
 1. Keep project/library naming as `rh-mi-icon`.
 2. Ensure runtime package is `rh-mi-react`.
 3. Ensure CLI package is `rh-mi-cli` with binary `rh-mi`.
 4. Update all docs/examples from `mi` to `rh-mi`.
 
-### Phase 2: Static Registry Foundation
-1. Create/maintain `ranjeet-h/rh-mi-icon-data`.
+### Phase 2: Static Registry Foundation ✅ Done
+1. Use `ranjeet-h/rh-mi-icon-data` as the single source repo.
 2. Add `registry/metadata.json` and per-style folders.
 3. Define JSON schema for icon files and metadata.
 4. Version registry by git tags (`vX.Y.Z`).
 
-### Phase 3: Scraper + Data Generation
+### Phase 3: Scraper + Data Generation ✅ Done
 1. Build scraper script to collect variant SVGs.
 2. Normalize path data and output JSON files.
 3. Generate metadata index for search.
-4. Commit generated output to data repo.
+4. Commit generated output back into the same repo under `registry/`.
 
-### Phase 4: CLI Generation Engine
+### Phase 4: CLI Generation Engine ✅ Done
 1. Implement config reader (`rh-mi.config.json`).
 2. Implement URL resolver for jsDelivr.
 3. Implement `add/remove/list/search/update/init`.
 4. Implement TSX generator + barrel updater.
 5. Add local cache to reduce repeated downloads.
 
-### Phase 5: Runtime Package
+### Phase 5: Runtime Package ✅ Done
 1. Implement `SvgIcon` with CSS-friendly defaults.
 2. Implement `IconProps` typing for variants.
 3. Implement optional `IconProvider` context defaults.
 4. Publish stable versions.
 
-### Phase 6: CI/CD Automation
-1. Data repo workflow:
+### Phase 6: CI/CD Automation ✅ Done
+1. Single repo workflow set:
    - run scraper
    - update registry files
    - commit + push
    - create tag
-2. Code repo workflow:
+2. In the same repo:
    - build/test packages
-   - publish npm packages on release tag
+   - publish `rh-mi-react` and `rh-mi-cli` on release tag
 
-### Phase 7: Consumer Validation
+### Phase 7: Consumer Validation ✅ Done
 1. Test in clean React app.
 2. Run `npx rh-mi init`.
 3. Run `npx rh-mi add arrow_back home`.
@@ -461,18 +481,18 @@ rh-mi-icon:
 
 ## Exact Setup Steps (You Can Follow This Directly)
 
-### 1) Create two GitHub repos
-1. `rh-mi-icon` (code)
-2. `rh-mi-icon-data` (icon registry data)
+### 1) Use one GitHub repo ✅ Done
+1. `rh-mi-icon-data` (single repo for code + icon registry data)
 
-### 2) Initialize data repo structure
+### 2) Initialize single repo structure ✅ Done
 
 ```bash
+mkdir -p packages/rh-mi-react packages/rh-mi-cli scripts/scraper
 mkdir -p registry/rounded registry/outlined registry/sharp
 touch registry/metadata.json registry/aliases.json
 ```
 
-### 3) Add first sample icon JSON
+### 3) Add first sample icon JSON ✅ Done
 Create:
 `registry/rounded/arrow_back.json`
 
@@ -485,7 +505,7 @@ Create:
 }
 ```
 
-### 4) Tag and push version
+### 4) Tag and push version ✅ Done
 
 ```bash
 git add .
@@ -495,13 +515,13 @@ git tag v1.0.0
 git push origin v1.0.0
 ```
 
-### 5) Confirm CDN URL works
+### 5) Confirm CDN URL works ✅ Done
 
 ```text
 https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.0.0/registry/rounded/arrow_back.json
 ```
 
-### 6) Create consumer config format
+### 6) Create consumer config format ✅ Done
 In app root, create `rh-mi.config.json`:
 
 ```json
@@ -515,7 +535,7 @@ In app root, create `rh-mi.config.json`:
 }
 ```
 
-### 7) Implement and test CLI commands
+### 7) Implement and test CLI commands ✅ Done
 
 ```bash
 npx rh-mi init
@@ -524,21 +544,21 @@ npx rh-mi add home --style=outlined
 npx rh-mi list
 ```
 
-### 8) Validate generated icons in React
+### 8) Validate generated icons in React ✅ Done
 Import from `src/icons` and render in UI.
 
-### 9) Add automated refresh
-Set GitHub Actions in data repo to regenerate and tag new versions.
+### 9) Add automated refresh ✅ Done
+Set GitHub Actions in the same repo to regenerate registry data and tag new versions.
 
-### 10) Publish runtime + CLI packages
-Publish `rh-mi-react` and `rh-mi-cli` after tests pass.
+### 10) Publish runtime + CLI packages ⏳ Pending npm credentials
+Publish is wired in workflow and will run from the same repo when `NPM_TOKEN` is configured.
 
 ---
 
 ## Cost Model
 
 ```text
-Hosting cost:      $0 (GitHub repositories)
+Hosting cost:      $0 (GitHub repository)
 CDN cost:          $0 (jsDelivr)
 API/server cost:   $0 (none required)
 ```

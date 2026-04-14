@@ -1,0 +1,20 @@
+{
+  "name": "rh-mi-cli",
+  "version": "0.1.0",
+  "description": "CLI for generating Material Symbol icon components on demand",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "rh-mi": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test"
+  }
+}
+

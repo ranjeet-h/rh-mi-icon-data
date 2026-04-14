@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ranjeet-h/rh-mi-icon-data/master/registry/schema/metadata.schema.json",
+  "title": "rh-mi metadata file",
+  "type": "object",
+  "required": ["icons"],
+  "properties": {
+    "icons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "category": {
+            "type": "string"
+          },
+          "styles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["rounded", "outlined", "sharp"]
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

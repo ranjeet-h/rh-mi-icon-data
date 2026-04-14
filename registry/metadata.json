@@ -1,0 +1,250 @@
+{
+  "icons": [
+    {
+      "name": "10k",
+      "tags": [
+        "10k"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "10mp",
+      "tags": [
+        "10mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "11mp",
+      "tags": [
+        "11mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "123",
+      "tags": [
+        "123"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "12mp",
+      "tags": [
+        "12mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "13mp",
+      "tags": [
+        "13mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "14mp",
+      "tags": [
+        "14mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "15mp",
+      "tags": [
+        "15mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "16mp",
+      "tags": [
+        "16mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "17mp",
+      "tags": [
+        "17mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "18_up_rating",
+      "tags": [
+        "18",
+        "up",
+        "rating"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "18mp",
+      "tags": [
+        "18mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "19mp",
+      "tags": [
+        "19mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "1k",
+      "tags": [
+        "1k"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "1k_plus",
+      "tags": [
+        "1k",
+        "plus"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "1x_mobiledata",
+      "tags": [
+        "1x",
+        "mobiledata"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "1x_mobiledata_badge",
+      "tags": [
+        "1x",
+        "mobiledata",
+        "badge"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "20mp",
+      "tags": [
+        "20mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "21mp",
+      "tags": [
+        "21mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    },
+    {
+      "name": "22mp",
+      "tags": [
+        "22mp"
+      ],
+      "category": "material-symbols",
+      "styles": [
+        "rounded",
+        "outlined",
+        "sharp"
+      ]
+    }
+  ]
+}

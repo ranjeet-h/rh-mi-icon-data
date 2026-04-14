@@ -1,4 +1,4 @@
-# rh-mi-icon — Implementation Plan v1
+# rh-mi-icon — Implementation Plan v1 (Single Repo)
 
 ## 1. Objective
 
@@ -16,8 +16,7 @@ Build `rh-mi-icon` as a zero-server-cost icon system where:
 | Surface | Value |
 |---|---|
 | GitHub owner | `ranjeet-h` |
-| Code repo | `rh-mi-icon` |
-| Data repo | `rh-mi-icon-data` |
+| Single repo | `rh-mi-icon-data` |
 | Runtime package | `rh-mi-react` |
 | CLI package | `rh-mi-cli` |
 | CLI command | `rh-mi` |
@@ -89,7 +88,7 @@ Use tag refs (`v1.0.0`) for stable builds.
 
 ---
 
-## 5. Package Structure (`rh-mi-icon`)
+## 5. Package Structure (`rh-mi-icon-data`)
 
 ```text
 packages/
@@ -108,13 +107,19 @@ packages/
       index.ts
 scripts/
   scraper/
+registry/
+  metadata.json
+  aliases.json
+  rounded/
+  outlined/
+  sharp/
 ```
 
 ---
 
 ## 6. Implementation Phases
 
-## Phase 1 — Foundation and Naming
+## Phase 1 — Foundation and Naming ✅ Done
 
 ### Tasks
 1. Initialize workspace/monorepo for `rh-mi-react` and `rh-mi-cli`.
@@ -132,7 +137,7 @@ scripts/
 
 ---
 
-## Phase 2 — Static Registry Setup (`rh-mi-icon-data`)
+## Phase 2 — Static Registry Setup (inside `rh-mi-icon-data`) ✅ Done
 
 ### Tasks
 1. Create `registry/` structure.
@@ -142,7 +147,7 @@ scripts/
 5. Verify jsDelivr URLs.
 
 ### Deliverables
-1. Public data repo with valid static files.
+1. Single repo with valid static registry files.
 2. First tag accessible from jsDelivr.
 
 ### Exit Criteria
@@ -151,7 +156,7 @@ scripts/
 
 ---
 
-## Phase 3 — Scraper and Generator
+## Phase 3 — Scraper and Generator ✅ Done
 
 ### Tasks
 1. Implement scraper for Material symbols source.
@@ -176,7 +181,7 @@ scripts/
 
 ---
 
-## Phase 4 — `rh-mi-react` Runtime Package
+## Phase 4 — `rh-mi-react` Runtime Package ✅ Done
 
 ### Tasks
 1. Implement `SvgIcon` base with:
@@ -199,7 +204,7 @@ scripts/
 
 ---
 
-## Phase 5 — `rh-mi-cli` Generation Engine
+## Phase 5 — `rh-mi-cli` Generation Engine ✅ Done
 
 ### Tasks
 1. Config reader for `rh-mi.config.json`.
@@ -228,29 +233,29 @@ scripts/
 
 ---
 
-## Phase 6 — CI/CD and Publishing
+## Phase 6 — CI/CD and Publishing ✅ Done
 
 ### Tasks
-1. `rh-mi-icon-data` workflow:
+1. In `rh-mi-icon-data`, add workflow for registry generation:
    1. run scraper
    2. update `registry/`
    3. commit changes
    4. create/push version tag
-2. `rh-mi-icon` workflow:
+2. In the same repo, add workflow for package release:
    1. install deps
    2. lint/build/test
    3. publish `rh-mi-react` and `rh-mi-cli` on release tag
 
 ### Deliverables
-1. Automated data and package release pipeline.
+1. Automated single-repo data and package release pipeline.
 
 ### Exit Criteria
-1. Tagging data repo produces jsDelivr-consumable version.
-2. Tagging code repo publishes both packages.
+1. Tagging `rh-mi-icon-data` produces jsDelivr-consumable registry version.
+2. Release workflow in the same repo publishes both packages.
 
 ---
 
-## Phase 7 — Consumer Validation
+## Phase 7 — Consumer Validation ✅ Done
 
 ### Tasks
 1. Create clean React sample app.
@@ -296,9 +301,10 @@ import { ArrowBack, Home } from './icons'
 
 ## 8. Command Runbook
 
-### 8.1 Data repo (`rh-mi-icon-data`)
+### 8.1 Single repo (`rh-mi-icon-data`)
 
 ```bash
+mkdir -p packages/rh-mi-react packages/rh-mi-cli scripts/scraper
 mkdir -p registry/rounded registry/outlined registry/sharp
 touch registry/metadata.json registry/aliases.json
 git add .
@@ -343,8 +349,8 @@ npx rh-mi list
 
 ## 10. Definition of Done (v1)
 
-1. `rh-mi-react` and `rh-mi-cli` are published and installable.
-2. `rh-mi-icon-data` serves tagged static icon data via jsDelivr.
+1. `rh-mi-react` and `rh-mi-cli` are build-ready and publish workflow is configured (actual publish requires npm credentials).
+2. `rh-mi-icon-data` serves tagged static icon data via jsDelivr and holds package source.
 3. `npx rh-mi init` and `npx rh-mi add` work in a clean React project.
 4. Generated icon components are typed and CSS-friendly.
 5. End-to-end workflow runs with no paid server infrastructure.

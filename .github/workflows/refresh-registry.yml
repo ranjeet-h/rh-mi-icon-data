@@ -1,0 +1,58 @@
+name: Refresh icon registry
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Optional icon limit (leave empty for full scrape)"
+        required: false
+        default: ""
+  schedule:
+    - cron: "0 2 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Scrape icons
+        run: |
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            npm run scrape -- --limit=${{ github.event.inputs.limit }}
+          else
+            npm run scrape
+          fi
+
+      - name: Commit registry updates
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add registry
+            git commit -m "chore: refresh icon registry"
+            git push
+          else
+            echo "No registry changes."
+          fi
+
+      - name: Tag registry version
+        run: |
+          TAG="v$(date +'%Y.%m.%d.%H%M')"
+          git tag "${TAG}"
+          git push origin "${TAG}"
+
