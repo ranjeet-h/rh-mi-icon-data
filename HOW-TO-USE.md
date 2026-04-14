@@ -221,3 +221,25 @@ Add:
 ```cron
 0 2 1 * * cd /absolute/path/to/rh-mi-icon-data && /bin/bash scripts/local-release.sh >> /tmp/rh-mi-monthly.log 2>&1
 ```
+
+---
+
+## 10) Deploy demo playground to GitHub Pages
+
+Build and deploy `../demo-icon` to `gh-pages`:
+
+```bash
+bash scripts/deploy-playground.sh
+```
+
+Or via npm script:
+
+```bash
+npm run deploy:playground
+```
+
+This script:
+1. builds the demo app with base path `/rh-mi-icon-data/`
+2. pushes build output to `gh-pages`
+3. sets GitHub Pages source to `gh-pages`
+4. waits for build completion and prints live URL
