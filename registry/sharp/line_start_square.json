@@ -1,0 +1,14 @@
+{
+  "name": "line_start_square",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M160-340h280v-280H160v280Zm360 80H80v-440h440v180h360v80H520v180ZM300-480Z",
+    "fill1": "M520-260H80v-440h440v180h360v80H520v180Z"
+  },
+  "tags": [
+    "line",
+    "start",
+    "square"
+  ]
+}

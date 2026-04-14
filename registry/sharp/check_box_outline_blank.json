@@ -1,0 +1,15 @@
+{
+  "name": "check_box_outline_blank",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-120v-720h720v720H120Zm80-80h560v-560H200v560Z",
+    "fill1": "M120-120v-720h720v720H120Zm80-80h560v-560H200v560Z"
+  },
+  "tags": [
+    "check",
+    "box",
+    "outline",
+    "blank"
+  ]
+}

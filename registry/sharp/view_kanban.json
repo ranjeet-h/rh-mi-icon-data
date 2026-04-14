@@ -1,0 +1,13 @@
+{
+  "name": "view_kanban",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M280-280h80v-400h-80v400Zm160-200h80v-200h-80v200Zm160 120h80v-320h-80v320ZM120-120v-720h720v720H120Zm80-80h560v-560H200v560Zm0 0v-560 560Z",
+    "fill1": "M280-280h80v-400h-80v400Zm160-200h80v-200h-80v200Zm160 120h80v-320h-80v320ZM120-120v-720h720v720H120Z"
+  },
+  "tags": [
+    "view",
+    "kanban"
+  ]
+}

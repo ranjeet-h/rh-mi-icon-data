@@ -1,0 +1,13 @@
+{
+  "name": "view_column",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M121-200v-560h719v560H121Zm79-80h133v-400H200v400Zm213 0h133v-400H413v400Zm213 0h133v-400H626v400Z",
+    "fill1": "M120-200v-560h213v560H120Zm253 0v-560h213v560H373Zm253 0v-560h213v560H626Z"
+  },
+  "tags": [
+    "view",
+    "column"
+  ]
+}

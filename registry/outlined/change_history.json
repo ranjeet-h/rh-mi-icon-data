@@ -1,0 +1,13 @@
+{
+  "name": "change_history",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "m80-160 400-640 400 640H80Zm144-80h512L480-650 224-240Zm256-205Z",
+    "fill1": "m80-160 400-640 400 640H80Z"
+  },
+  "tags": [
+    "change",
+    "history"
+  ]
+}

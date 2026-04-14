@@ -1,0 +1,14 @@
+{
+  "name": "move_selection_right",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M400-240v-480h480v480H400Zm80-80h320v-320H480v320Zm-240 80v-80h80v80h-80Zm0-400v-80h80v80h-80ZM80-240v-80h80v80H80Zm0-200v-80h80v80H80Zm0-200v-80h80v80H80Zm560 160Z",
+    "fill1": "M400-240v-480h480v480H400Zm-160 0v-80h80v80h-80Zm0-400v-80h80v80h-80ZM80-240v-80h80v80H80Zm0-200v-80h80v80H80Zm0-200v-80h80v80H80Z"
+  },
+  "tags": [
+    "move",
+    "selection",
+    "right"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "tab_group",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M240-240v-640h640v640H240Zm80-80h480v-320H520v-160H320v480ZM80-80v-640h80v560h560v80H80Zm240-720v480-480Z",
+    "fill1": "M80-80v-640h80v560h560v80H80Zm160-160v-640h640v640H240Zm280-400h280v-160H520v160Z"
+  },
+  "tags": [
+    "tab",
+    "group"
+  ]
+}

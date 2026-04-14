@@ -1,0 +1,14 @@
+{
+  "name": "align_space_around",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-800v-80h800v80H80Zm0 720v-80h800v80H80Zm200-520v-120h400v120H280Zm0 360v-120h400v120H280Z",
+    "fill1": "M80-800v-80h800v80H80Zm0 720v-80h800v80H80Zm200-520v-120h400v120H280Zm0 360v-120h400v120H280Z"
+  },
+  "tags": [
+    "align",
+    "space",
+    "around"
+  ]
+}

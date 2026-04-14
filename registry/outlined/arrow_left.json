@@ -1,0 +1,13 @@
+{
+  "name": "arrow_left",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M560-280 360-480l200-200v400Z",
+    "fill1": "M560-280 360-480l200-200v400Z"
+  },
+  "tags": [
+    "arrow",
+    "left"
+  ]
+}

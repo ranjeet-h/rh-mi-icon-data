@@ -1,0 +1,13 @@
+{
+  "name": "work_outline",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-120v-600h240v-160h320v160h240v600H80Zm80-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z",
+    "fill1": "M80-120v-600h240v-160h320v160h240v600H80Zm320-600h160v-80H400v80Z"
+  },
+  "tags": [
+    "work",
+    "outline"
+  ]
+}

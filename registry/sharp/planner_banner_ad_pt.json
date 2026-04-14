@@ -1,0 +1,15 @@
+{
+  "name": "planner_banner_ad_pt",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M160-80v-800h640v800H160Zm80-80h480v-640H240v640Zm40-80h400L542-420l-92 120-62-80-108 140Zm-40 80v-640 640Z",
+    "fill1": "M160-80v-800h640v800H160Zm120-160h400L542-420l-92 120-62-80-108 140Z"
+  },
+  "tags": [
+    "planner",
+    "banner",
+    "ad",
+    "pt"
+  ]
+}

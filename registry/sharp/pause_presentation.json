@@ -1,0 +1,13 @@
+{
+  "name": "pause_presentation",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M360-320h80v-320h-80v320Zm160 0h80v-320h-80v320ZM80-160v-640h800v640H80Zm80-80h640v-480H160v480Zm0 0v-480 480Z",
+    "fill1": "M360-320h80v-320h-80v320Zm160 0h80v-320h-80v320ZM80-160v-640h800v640H80Z"
+  },
+  "tags": [
+    "pause",
+    "presentation"
+  ]
+}

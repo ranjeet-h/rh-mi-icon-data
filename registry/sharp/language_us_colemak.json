@@ -1,0 +1,14 @@
+{
+  "name": "language_us_colemak",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M580-360h140v-240H580v240Zm-420 80v-400h260v80H240v240h180v80H160Zm340 0v-400h300v400H500Z",
+    "fill1": "M580-360h140v-240H580v240Zm-420 80v-400h260v80H240v240h180v80H160Zm340 0v-400h300v400H500Z"
+  },
+  "tags": [
+    "language",
+    "us",
+    "colemak"
+  ]
+}

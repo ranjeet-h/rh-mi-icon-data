@@ -1,0 +1,13 @@
+{
+  "name": "sensor_window",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M160-80v-800h640v800H160Zm80-440h160v-40h160v40h160v-280H240v280Zm0 80v280h480v-280H240Zm0 280h480-480Z",
+    "fill1": "M160-80v-800h640v800H160Zm120-440h120v-40h160v40h120v-240H280v240Zm0 80v240h400v-240H280Zm-40-360v640h480v-640H240Z"
+  },
+  "tags": [
+    "sensor",
+    "window"
+  ]
+}

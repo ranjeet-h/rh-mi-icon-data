@@ -1,0 +1,14 @@
+{
+  "name": "timer_5_shutter",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M320-200v-120h240v-100H320v-340h360v120H440v100h240v340H320Z",
+    "fill1": "M320-200v-120h240v-100H320v-340h360v120H440v100h240v340H320Z"
+  },
+  "tags": [
+    "timer",
+    "5",
+    "shutter"
+  ]
+}

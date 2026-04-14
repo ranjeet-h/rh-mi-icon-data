@@ -1,0 +1,13 @@
+{
+  "name": "more_up",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M680-320v-360H320v-80h440v440h-80ZM480-120v-360H120v-80h440v440h-80Z",
+    "fill1": "M680-320v-360H320v-80h440v440h-80ZM480-120v-360H120v-80h440v440h-80Z"
+  },
+  "tags": [
+    "more",
+    "up"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "responsive_layout",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-120v-520h200v-200h520v720H120Zm520-80h120v-560H400v120h240v440Zm-240 0h160v-360H400v360Zm-200 0h120v-360H200v360Zm440-440v80-80Zm-320 80Zm240 0Zm80-80Z",
+    "fill1": "M640-120v-520H380v-200h460v720H640Zm-260 0v-440h180v440H380Zm-260 0v-440h180v440H120Z"
+  },
+  "tags": [
+    "responsive",
+    "layout"
+  ]
+}

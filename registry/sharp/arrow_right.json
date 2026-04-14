@@ -1,0 +1,13 @@
+{
+  "name": "arrow_right",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M400-280v-400l200 200-200 200Z",
+    "fill1": "M400-280v-400l200 200-200 200Z"
+  },
+  "tags": [
+    "arrow",
+    "right"
+  ]
+}

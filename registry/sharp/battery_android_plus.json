@@ -1,0 +1,14 @@
+{
+  "name": "battery_android_plus",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-320v-320 320Zm-80 80v-480h600v80H120v320h520v80H40Zm680-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Z",
+    "fill1": "M40-240v-480h600v120H520v240h120v120H40Zm680-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Z"
+  },
+  "tags": [
+    "battery",
+    "android",
+    "plus"
+  ]
+}

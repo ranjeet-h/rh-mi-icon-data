@@ -1,0 +1,14 @@
+{
+  "name": "position_bottom_left",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M240-280h360v-120H240v120ZM120-120v-720h720v720H120Zm80-80h560v-560H200v560Zm0-560v560-560Z",
+    "fill1": "M240-280h360v-120H240v120ZM120-120v-720h720v720H120Z"
+  },
+  "tags": [
+    "position",
+    "bottom",
+    "left"
+  ]
+}

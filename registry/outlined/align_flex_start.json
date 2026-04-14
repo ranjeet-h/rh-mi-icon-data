@@ -1,0 +1,14 @@
+{
+  "name": "align_flex_start",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-800v-80h800v80H80Zm340 640v-560h120v560H420Z",
+    "fill1": "M80-800v-80h800v80H80Zm340 640v-560h120v560H420Z"
+  },
+  "tags": [
+    "align",
+    "flex",
+    "start"
+  ]
+}

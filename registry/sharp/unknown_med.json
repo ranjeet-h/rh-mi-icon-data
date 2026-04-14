@@ -1,0 +1,13 @@
+{
+  "name": "unknown_med",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-440v-120h360v120H80Zm440 0v-120h360v120H520Z",
+    "fill1": "M80-440v-120h360v120H80Zm440 0v-120h360v120H520Z"
+  },
+  "tags": [
+    "unknown",
+    "med"
+  ]
+}

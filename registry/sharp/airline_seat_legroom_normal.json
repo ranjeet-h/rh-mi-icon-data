@@ -1,0 +1,15 @@
+{
+  "name": "airline_seat_legroom_normal",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M640-120v-280H240v-440h240v240h280v360h120v120H640Zm-80-160H120v-560h80v480h360v80Z",
+    "fill1": "M640-120v-280H240v-440h240v240h280v360h120v120H640Zm-80-160H120v-560h80v480h360v80Z"
+  },
+  "tags": [
+    "airline",
+    "seat",
+    "legroom",
+    "normal"
+  ]
+}

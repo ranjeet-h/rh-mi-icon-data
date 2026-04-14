@@ -1,0 +1,13 @@
+{
+  "name": "transition_chop",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-160v-640h800v640H80Zm80-138 462-120-78-302H160v422Zm95 58h545v-480H627l93 360-465 120Zm-95-480Z",
+    "fill1": "M80-160v-640h800v640H80Zm175-80h545v-480H627l93 360-465 120Z"
+  },
+  "tags": [
+    "transition",
+    "chop"
+  ]
+}

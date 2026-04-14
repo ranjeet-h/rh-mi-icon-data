@@ -1,0 +1,13 @@
+{
+  "name": "battery_60",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M360-480h240v-240H360v240ZM280-80v-720h120v-80h160v80h120v720H280Z",
+    "fill1": "M360-480h240v-240H360v240ZM280-80v-720h120v-80h160v80h120v720H280Z"
+  },
+  "tags": [
+    "battery",
+    "60"
+  ]
+}

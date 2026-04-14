@@ -1,0 +1,14 @@
+{
+  "name": "grid_layout_side",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-120v-720h720v720H120Zm80-80h320v-560H200v560Zm560 0v-560H600v560h160Z",
+    "fill1": "M840-120v-720 720Zm-720 0h400v-720H120v720Zm720 0v-720H600v720h240Z"
+  },
+  "tags": [
+    "grid",
+    "layout",
+    "side"
+  ]
+}

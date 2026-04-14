@@ -1,0 +1,14 @@
+{
+  "name": "signal_cellular_pause",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "m80-80 800-800v440h-80v-247L273-160h247v80H80Zm520 0v-280h80v280h-80Zm160 0v-280h80v280h-80ZM537-424Z",
+    "fill1": "m80-80 800-800v440H520v360H80Zm680 0v-280h80v280h-80Zm-160 0v-280h80v280h-80Z"
+  },
+  "tags": [
+    "signal",
+    "cellular",
+    "pause"
+  ]
+}

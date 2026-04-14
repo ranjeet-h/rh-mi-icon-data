@@ -1,0 +1,15 @@
+{
+  "name": "line_end_arrow_notch",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "m440-200 137-240H80v-80h497L440-760l440 280-440 280Z",
+    "fill1": "m440-200 137-240H80v-80h497L440-760l440 280-440 280Z"
+  },
+  "tags": [
+    "line",
+    "end",
+    "arrow",
+    "notch"
+  ]
+}

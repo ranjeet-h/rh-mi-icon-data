@@ -1,0 +1,13 @@
+{
+  "name": "bottom_navigation",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-120v-720h720v720H120Zm80-240h560v-400H200v400Zm0 80v80h560v-80H200Zm0 0v80-80Z",
+    "fill1": "M120-120v-720h720v720H120Zm80-240h560v-400H200v400Z"
+  },
+  "tags": [
+    "bottom",
+    "navigation"
+  ]
+}

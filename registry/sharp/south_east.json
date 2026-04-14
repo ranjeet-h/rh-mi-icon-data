@@ -1,0 +1,13 @@
+{
+  "name": "south_east",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M360-200v-80h264L160-744l56-56 464 464v-264h80v400H360Z",
+    "fill1": "M360-200v-80h264L160-744l56-56 464 464v-264h80v400H360Z"
+  },
+  "tags": [
+    "south",
+    "east"
+  ]
+}

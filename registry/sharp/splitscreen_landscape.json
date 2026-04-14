@@ -1,0 +1,13 @@
+{
+  "name": "splitscreen_landscape",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M520-320h200v-320H520v320Zm-280 0h200v-320H240v320ZM80-160v-640h800v640H80Zm720-80v-480H160v480h640ZM160-720v480-480Z",
+    "fill1": "M520-320h200v-320H520v320Zm-280 0h200v-320H240v320ZM80-160v-640h800v640H80Z"
+  },
+  "tags": [
+    "splitscreen",
+    "landscape"
+  ]
+}

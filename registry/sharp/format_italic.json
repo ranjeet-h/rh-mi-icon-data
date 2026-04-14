@@ -1,0 +1,13 @@
+{
+  "name": "format_italic",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M200-200v-100h160l120-360H320v-100h400v100H580L460-300h140v100H200Z",
+    "fill1": "M200-200v-100h160l120-360H320v-100h400v100H580L460-300h140v100H200Z"
+  },
+  "tags": [
+    "format",
+    "italic"
+  ]
+}

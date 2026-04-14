@@ -1,0 +1,13 @@
+{
+  "name": "call_received",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M200-200v-400h80v264l464-464 56 56-464 464h264v80H200Z",
+    "fill1": "M200-200v-400h80v264l464-464 56 56-464 464h264v80H200Z"
+  },
+  "tags": [
+    "call",
+    "received"
+  ]
+}

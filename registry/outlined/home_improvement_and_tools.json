@@ -1,0 +1,15 @@
+{
+  "name": "home_improvement_and_tools",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M240-880h480L600-712v512L480-80 360-200v-512L240-880Zm200 320h80v-176l40-64H400l40 64v176Zm80 80h-80v80h80v-80Zm0 240v-80h-80v80l40 40 40-40Zm-40-320Zm0 160Zm0-160Zm0 80Zm0 160Z",
+    "fill1": "M240-880h480L600-712v152H360v-152L240-880Zm120 400h240v80H360v-80Zm0 160h240v120L480-80 360-200v-120Z"
+  },
+  "tags": [
+    "home",
+    "improvement",
+    "and",
+    "tools"
+  ]
+}

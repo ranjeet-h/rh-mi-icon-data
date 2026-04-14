@@ -1,0 +1,14 @@
+{
+  "name": "call_missed_outgoing",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M480-263 120-623l56-57 304 304 224-224H520v-80h320v320h-80v-183L480-263Z",
+    "fill1": "M480-263 120-623l56-57 304 304 224-224H520v-80h320v320h-80v-183L480-263Z"
+  },
+  "tags": [
+    "call",
+    "missed",
+    "outgoing"
+  ]
+}

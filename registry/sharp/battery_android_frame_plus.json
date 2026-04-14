@@ -1,0 +1,15 @@
+{
+  "name": "battery_android_frame_plus",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M40-240v-480h600v80H120v320h520v80H40Zm680-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Zm-560-40v-240h360v240H160Z",
+    "fill1": "M40-240v-480h600v80H120v320h520v80H40Zm680-80v-120H600v-80h120v-120h80v120h120v80H800v120h-80Zm-560-40v-240h360v240H160Z"
+  },
+  "tags": [
+    "battery",
+    "android",
+    "frame",
+    "plus"
+  ]
+}

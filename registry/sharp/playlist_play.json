@@ -1,0 +1,13 @@
+{
+  "name": "playlist_play",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-320v-80h320v80H120Zm0-160v-80h480v80H120Zm0-160v-80h480v80H120Zm520 520v-320l240 160-240 160Z",
+    "fill1": "M120-320v-80h320v80H120Zm0-160v-80h480v80H120Zm0-160v-80h480v80H120Zm520 520v-320l240 160-240 160Z"
+  },
+  "tags": [
+    "playlist",
+    "play"
+  ]
+}

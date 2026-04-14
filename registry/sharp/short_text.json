@@ -1,0 +1,13 @@
+{
+  "name": "short_text",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M160-360v-80h400v80H160Zm0-160v-80h640v80H160Z",
+    "fill1": "M160-360v-80h400v80H160Zm0-160v-80h640v80H160Z"
+  },
+  "tags": [
+    "short",
+    "text"
+  ]
+}

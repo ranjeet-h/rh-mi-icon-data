@@ -1,0 +1,14 @@
+{
+  "name": "arrow_menu_open",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M360-120v-720h80v720h-80Zm160-160v-400l200 200-200 200Z",
+    "fill1": "M360-120v-720h80v720h-80Zm160-160v-400l200 200-200 200Z"
+  },
+  "tags": [
+    "arrow",
+    "menu",
+    "open"
+  ]
+}

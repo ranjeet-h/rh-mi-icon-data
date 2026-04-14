@@ -1,0 +1,14 @@
+{
+  "name": "keyboard_option_key",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M591-200 314-680H120v-80h240l277 480h203v80H591Zm9-480v-80h240v80H600Z",
+    "fill1": "M591-200 314-680H120v-80h240l277 480h203v80H591Zm9-480v-80h240v80H600Z"
+  },
+  "tags": [
+    "keyboard",
+    "option",
+    "key"
+  ]
+}

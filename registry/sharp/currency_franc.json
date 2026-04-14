@@ -1,0 +1,13 @@
+{
+  "name": "currency_franc",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M280-120v-120h-80v-80h80v-520h440v80H360v240h320v80H360v120h160v80H360v120h-80Z",
+    "fill1": "M280-120v-120h-80v-80h80v-520h440v80H360v240h320v80H360v120h160v80H360v120h-80Z"
+  },
+  "tags": [
+    "currency",
+    "franc"
+  ]
+}

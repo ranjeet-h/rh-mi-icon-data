@@ -1,0 +1,14 @@
+{
+  "name": "filter_list_alt",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M400-160v-280L118-800h724L560-440v280H400Zm80-308 198-252H282l198 252Zm0 0Z",
+    "fill1": "M400-160v-280L118-800h724L560-440v280H400Z"
+  },
+  "tags": [
+    "filter",
+    "list",
+    "alt"
+  ]
+}

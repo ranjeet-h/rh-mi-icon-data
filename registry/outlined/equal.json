@@ -1,0 +1,12 @@
+{
+  "name": "equal",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M160-280v-120h640v120H160Zm0-280v-120h640v120H160Z",
+    "fill1": "M160-280v-120h640v120H160Zm0-280v-120h640v120H160Z"
+  },
+  "tags": [
+    "equal"
+  ]
+}

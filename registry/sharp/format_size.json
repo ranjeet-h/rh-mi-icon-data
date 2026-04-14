@@ -1,0 +1,13 @@
+{
+  "name": "format_size",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M560-160v-520H360v-120h520v120H680v520H560Zm-360 0v-320H80v-120h360v120H320v320H200Z",
+    "fill1": "M560-160v-520H360v-120h520v120H680v520H560Zm-360 0v-320H80v-120h360v120H320v320H200Z"
+  },
+  "tags": [
+    "format",
+    "size"
+  ]
+}

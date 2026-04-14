@@ -1,0 +1,16 @@
+{
+  "name": "signal_cellular_alt_1_bar",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M200-160v-240h120v240H200Z",
+    "fill1": "M200-160v-240h120v240H200Z"
+  },
+  "tags": [
+    "signal",
+    "cellular",
+    "alt",
+    "1",
+    "bar"
+  ]
+}

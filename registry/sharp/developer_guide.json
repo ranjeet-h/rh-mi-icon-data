@@ -1,0 +1,13 @@
+{
+  "name": "developer_guide",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-120v-720h720v720H120Zm80-640v560h560v-560h-80v280l-100-60-100 60v-280H200Zm0 560v-560 560Z",
+    "fill1": "M120-120v-720h720v720H120Zm360-640v280l100-60 100 60v-280H480Z"
+  },
+  "tags": [
+    "developer",
+    "guide"
+  ]
+}

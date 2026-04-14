@@ -1,0 +1,13 @@
+{
+  "name": "transit_enterexit",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M240-240v-400h120v190l272-272 88 88-274 274h194v120H240Z",
+    "fill1": "M240-240v-400h120v190l272-272 88 88-274 274h194v120H240Z"
+  },
+  "tags": [
+    "transit",
+    "enterexit"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "table_chart",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-120v-720h720v720H120Zm80-520h560v-120H200v120Zm0 440h100v-360H200v360Zm460 0h100v-360H660v360Zm-280 0h200v-360H380v360Z",
+    "fill1": "M120-640v-200h720v200H120Zm0 520v-440h180v440H120Zm540 0v-440h180v440H660Zm-280 0v-440h200v440H380Z"
+  },
+  "tags": [
+    "table",
+    "chart"
+  ]
+}

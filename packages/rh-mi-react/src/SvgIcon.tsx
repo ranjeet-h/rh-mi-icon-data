@@ -20,6 +20,7 @@ export const SvgIcon = ({
   grade,
   opticalSize,
   style,
+  viewBox = '0 0 24 24',
   'aria-label': ariaLabel,
   ...rest
 }: SvgIconProps) => {
@@ -45,7 +46,7 @@ export const SvgIcon = ({
       {...rest}
       width="1em"
       height="1em"
-      viewBox="0 0 24 24"
+      viewBox={viewBox}
       fill="currentColor"
       aria-hidden={isDecorative}
       focusable="false"

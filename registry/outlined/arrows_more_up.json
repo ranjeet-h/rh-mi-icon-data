@@ -1,0 +1,14 @@
+{
+  "name": "arrows_more_up",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M480-200v-360H120v-80h440v440h-80Zm200-200v-360H320v-80h440v440h-80Z",
+    "fill1": "M480-200v-360H120v-80h440v440h-80Zm200-200v-360H320v-80h440v440h-80Z"
+  },
+  "tags": [
+    "arrows",
+    "more",
+    "up"
+  ]
+}

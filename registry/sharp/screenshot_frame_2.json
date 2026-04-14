@@ -1,0 +1,14 @@
+{
+  "name": "screenshot_frame_2",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M800-560v-120H680v-80h200v200h-80Zm-720 0v-200h200v80H160v120H80Zm600 360v-80h120v-120h80v200H680Zm-600 0v-200h80v120h120v80H80Z",
+    "fill1": "M800-560v-120H680v-80h200v200h-80Zm-720 0v-200h200v80H160v120H80Zm600 360v-80h120v-120h80v200H680Zm-600 0v-200h80v120h120v80H80Z"
+  },
+  "tags": [
+    "screenshot",
+    "frame",
+    "2"
+  ]
+}

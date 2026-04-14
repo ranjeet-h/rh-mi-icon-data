@@ -1,0 +1,14 @@
+{
+  "name": "check_indeterminate_small",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M240-440v-80h480v80H240Z",
+    "fill1": "M240-440v-80h480v80H240Z"
+  },
+  "tags": [
+    "check",
+    "indeterminate",
+    "small"
+  ]
+}

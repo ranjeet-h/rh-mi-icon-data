@@ -1,0 +1,13 @@
+{
+  "name": "chat_bubble",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-80v-800h800v640H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z",
+    "fill1": "M80-80v-800h800v640H240L80-80Z"
+  },
+  "tags": [
+    "chat",
+    "bubble"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "dock_to_right",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M200-200h120v-560H200v560Zm200 0h360v-560H400v560Zm-80 0H200h120Zm-200 80v-720h720v720H120Z",
+    "fill1": "M400-200h360v-560H400v560Zm-280 80v-720h720v720H120Z"
+  },
+  "tags": [
+    "dock",
+    "to",
+    "right"
+  ]
+}

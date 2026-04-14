@@ -1,0 +1,14 @@
+{
+  "name": "label_important_outline",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "m80-160 240-320L80-800h560l240 320-240 320H80Zm160-80h360l180-240-180-240H240l180 240-180 240Zm270-240Z",
+    "fill1": "m80-160 240-320L80-800h560l240 320-240 320H80Z"
+  },
+  "tags": [
+    "label",
+    "important",
+    "outline"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "arrow_back_2",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M640-200 200-480l440-280v560Zm-80-280Zm0 134v-268L350-480l210 134Z",
+    "fill1": "M640-200 200-480l440-280v560Z"
+  },
+  "tags": [
+    "arrow",
+    "back",
+    "2"
+  ]
+}

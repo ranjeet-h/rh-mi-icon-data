@@ -1,0 +1,13 @@
+{
+  "name": "splitscreen_left",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-120v-720h320v720H120Zm400 0v-720h320v720H520Zm240-640H600v560h160v-560Z",
+    "fill1": "M120-120v-720h320v720H120Zm400 0v-720h320v720H520Zm240-640H600v560h160v-560Z"
+  },
+  "tags": [
+    "splitscreen",
+    "left"
+  ]
+}

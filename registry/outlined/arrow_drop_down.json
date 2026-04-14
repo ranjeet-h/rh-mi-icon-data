@@ -1,0 +1,14 @@
+{
+  "name": "arrow_drop_down",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M480-360 280-560h400L480-360Z",
+    "fill1": "M480-360 280-560h400L480-360Z"
+  },
+  "tags": [
+    "arrow",
+    "drop",
+    "down"
+  ]
+}

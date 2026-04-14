@@ -1,0 +1,13 @@
+{
+  "name": "view_array",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-200v-560h120v560H120Zm160 0v-560h400v560H280Zm440 0v-560h120v560H720Zm-360-80h240v-400H360v400Zm120-200Z",
+    "fill1": "M120-200v-560h120v560H120Zm160 0v-560h400v560H280Zm440 0v-560h120v560H720Z"
+  },
+  "tags": [
+    "view",
+    "array"
+  ]
+}

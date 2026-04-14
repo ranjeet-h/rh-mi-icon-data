@@ -1,0 +1,15 @@
+{
+  "name": "format_letter_spacing_wide",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-160v-640h80v640h-80Zm640 0v-640h80v640h-80ZM294-280l150-400h72l150 400h-70l-34-102H400l-36 102h-70Zm126-160h120l-58-166-62 166Z",
+    "fill1": "M120-160v-640h80v640h-80Zm640 0v-640h80v640h-80ZM294-280l150-400h72l150 400h-70l-34-102H400l-36 102h-70Zm126-160h120l-58-166-62 166Z"
+  },
+  "tags": [
+    "format",
+    "letter",
+    "spacing",
+    "wide"
+  ]
+}

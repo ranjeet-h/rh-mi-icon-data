@@ -1,0 +1,12 @@
+{
+  "name": "remove",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M200-440v-80h560v80H200Z",
+    "fill1": "M200-440v-80h560v80H200Z"
+  },
+  "tags": [
+    "remove"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "thermostat_carbon",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M480-48 48-480l432-432 432 432L480-48Zm0-112 320-320-320-320-320 320 320 320Zm0-320Z",
+    "fill1": "M480-48 48-480l432-432 432 432L480-48Z"
+  },
+  "tags": [
+    "thermostat",
+    "carbon"
+  ]
+}

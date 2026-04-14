@@ -1,0 +1,14 @@
+{
+  "name": "insert_drive_file",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M160-80v-800h400l240 240v560H160Zm360-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z",
+    "fill1": "M160-80v-800h400l240 240v560H160Zm360-520h200L520-800v200Z"
+  },
+  "tags": [
+    "insert",
+    "drive",
+    "file"
+  ]
+}

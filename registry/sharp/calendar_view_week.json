@@ -1,0 +1,14 @@
+{
+  "name": "calendar_view_week",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M520-240h100v-480H520v480Zm-180 0h100v-480H340v480Zm-180 0h100v-480H160v480Zm540 0h100v-480H700v480ZM80-160v-640h800v640H80Z",
+    "fill1": "M510-200v-560h135v560H510Zm-195 0v-560h135v560H315Zm-195 0v-560h135v560H120Zm585 0v-560h135v560H705Z"
+  },
+  "tags": [
+    "calendar",
+    "view",
+    "week"
+  ]
+}

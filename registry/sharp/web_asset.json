@@ -1,0 +1,13 @@
+{
+  "name": "web_asset",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-160v-640h800v640H80Zm80-80h640v-400H160v400Z",
+    "fill1": "M80-160v-640h800v640H80Zm80-80h640v-400H160v400Z"
+  },
+  "tags": [
+    "web",
+    "asset"
+  ]
+}

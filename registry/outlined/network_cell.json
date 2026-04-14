@@ -1,0 +1,13 @@
+{
+  "name": "network_cell",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "m80-80 800-800v800H80Zm600-80h120v-526L680-566v406Z",
+    "fill1": "m80-80 800-800v800H80Zm600-80h120v-526L680-566v406Z"
+  },
+  "tags": [
+    "network",
+    "cell"
+  ]
+}

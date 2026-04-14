@@ -1,0 +1,14 @@
+{
+  "name": "line_start_diamond",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "m360-313 167-167-167-167-167 167 167 167Zm0 113L80-480l280-280 240 240h280v80H600L360-200Zm0-280Z",
+    "fill1": "M360-200 80-480l280-280 240 240h280v80H600L360-200Z"
+  },
+  "tags": [
+    "line",
+    "start",
+    "diamond"
+  ]
+}

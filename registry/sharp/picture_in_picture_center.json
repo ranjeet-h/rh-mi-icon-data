@@ -1,0 +1,15 @@
+{
+  "name": "picture_in_picture_center",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-160v-640h800v640H80Zm80-80h640v-480H160v480Zm0 0v-480 480Zm160-120h320v-240H320v240Z",
+    "fill1": "M80-160v-640h800v640H80Zm240-200h320v-240H320v240Z"
+  },
+  "tags": [
+    "picture",
+    "in",
+    "picture",
+    "center"
+  ]
+}

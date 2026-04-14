@@ -1,0 +1,13 @@
+{
+  "name": "timer_1",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M480-200v-440H320v-120h280v560H480Z",
+    "fill1": "M480-200v-440H320v-120h280v560H480Z"
+  },
+  "tags": [
+    "timer",
+    "1"
+  ]
+}

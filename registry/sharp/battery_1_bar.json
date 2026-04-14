@@ -1,0 +1,14 @@
+{
+  "name": "battery_1_bar",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M280-80v-720h120v-80h160v80h120v720H280Zm80-160h240v-480H360v480Z",
+    "fill1": "M280-80v-720h120v-80h160v80h120v720H280Zm80-160h240v-480H360v480Z"
+  },
+  "tags": [
+    "battery",
+    "1",
+    "bar"
+  ]
+}

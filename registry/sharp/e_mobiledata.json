@@ -1,0 +1,13 @@
+{
+  "name": "e_mobiledata",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M320-280v-400h320v80H400v80h240v80H400v80h240v80H320Z",
+    "fill1": "M320-280v-400h320v80H400v80h240v80H400v80h240v80H320Z"
+  },
+  "tags": [
+    "e",
+    "mobiledata"
+  ]
+}

@@ -174,6 +174,8 @@ registry/
 ### Deliverables
 1. Re-runnable scraper command.
 2. Deterministic output under `registry/`.
+3. Full icon sync support (all available icons).
+4. Future icon support from live codepoints source.
 
 ### Exit Criteria
 1. Regeneration is stable for same source input.
@@ -241,6 +243,7 @@ registry/
    2. update `registry/`
    3. commit changes
    4. create/push version tag
+   5. schedule monthly full sync on the 1st day
 2. In the same repo, add workflow for package release:
    1. install deps
    2. lint/build/test
@@ -252,6 +255,7 @@ registry/
 ### Exit Criteria
 1. Tagging `rh-mi-icon-data` produces jsDelivr-consumable registry version.
 2. Release workflow in the same repo publishes both packages.
+3. Monthly scheduled run auto-detects and syncs newly added icons.
 
 ---
 
@@ -309,7 +313,7 @@ mkdir -p registry/rounded registry/outlined registry/sharp
 touch registry/metadata.json registry/aliases.json
 git add .
 git commit -m "seed registry"
-git push origin main
+git push origin master
 git tag v1.0.0
 git push origin v1.0.0
 ```

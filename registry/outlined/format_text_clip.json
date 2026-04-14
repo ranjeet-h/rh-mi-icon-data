@@ -1,0 +1,14 @@
+{
+  "name": "format_text_clip",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M160-160v-640h80v640h-80Zm560 0v-280H320v-80h400v-280h80v640h-80Z",
+    "fill1": "M160-160v-640h80v640h-80Zm560 0v-280H320v-80h400v-280h80v640h-80Z"
+  },
+  "tags": [
+    "format",
+    "text",
+    "clip"
+  ]
+}

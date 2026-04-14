@@ -1,0 +1,15 @@
+{
+  "name": "picture_in_picture_small",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-160v-80h720v-560h80v560q0 33-23.5 56.5T800-160H80Zm320-160v-240h320v240H400Z",
+    "fill1": "M80-160v-80h720v-560h80v560q0 33-23.5 56.5T800-160H80Zm320-160v-240h320v240H400Z"
+  },
+  "tags": [
+    "picture",
+    "in",
+    "picture",
+    "small"
+  ]
+}

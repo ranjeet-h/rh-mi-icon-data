@@ -1,0 +1,12 @@
+{
+  "name": "straighten",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-240v-480h800v480H80Zm80-80h640v-320H680v160h-80v-160h-80v160h-80v-160h-80v160h-80v-160H160v320Zm120-160h80-80Zm160 0h80-80Zm160 0h80-80Zm-120 0Z",
+    "fill1": "M80-240v-480h200v240h80v-240h80v240h80v-240h80v240h80v-240h200v480H80Z"
+  },
+  "tags": [
+    "straighten"
+  ]
+}

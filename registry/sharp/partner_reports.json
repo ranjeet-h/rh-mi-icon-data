@@ -1,0 +1,13 @@
+{
+  "name": "partner_reports",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M440-440v-400h80v400h-80ZM120-120v-200h80v120h560v-120h80v200H120Zm320-160v-80h80v80h-80Z",
+    "fill1": "M440-440v-400h80v400h-80ZM120-120v-200h80v120h560v-120h80v200H120Zm320-160v-80h80v80h-80Z"
+  },
+  "tags": [
+    "partner",
+    "reports"
+  ]
+}

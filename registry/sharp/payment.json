@@ -1,0 +1,12 @@
+{
+  "name": "payment",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-160v-640h800v640H80Zm80-480h640v-80H160v80Zm0 400h640v-240H160v240Zm0 0v-480 480Z",
+    "fill1": "M80-160v-640h800v640H80Zm80-320h640v-160H160v160Z"
+  },
+  "tags": [
+    "payment"
+  ]
+}

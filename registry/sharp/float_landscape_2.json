@@ -1,0 +1,14 @@
+{
+  "name": "float_landscape_2",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M520-400h200v-240H520v240ZM80-160v-640h800v640H80Zm80-80h640v-480H160v480Zm0 0v-480 480Z",
+    "fill1": "M520-400h200v-240H520v240ZM80-160v-640h800v640H80Z"
+  },
+  "tags": [
+    "float",
+    "landscape",
+    "2"
+  ]
+}

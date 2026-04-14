@@ -1,0 +1,14 @@
+{
+  "name": "horizontal_align_right",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M760-160v-640h80v640h-80ZM480-280l-56-56 104-104H120v-80h408L424-624l56-56 200 200-200 200Z",
+    "fill1": "M760-160v-640h80v640h-80ZM480-280l-56-56 104-104H120v-80h408L424-624l56-56 200 200-200 200Z"
+  },
+  "tags": [
+    "horizontal",
+    "align",
+    "right"
+  ]
+}

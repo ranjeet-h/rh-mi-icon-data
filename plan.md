@@ -333,7 +333,7 @@ https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.0.0/registry/metadata.j
 https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.0.0/registry/rounded/arrow_back.json
 
 # dev ref (non-production)
-https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@main/registry/metadata.json
+https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@master/registry/metadata.json
 ```
 
 ---
@@ -510,7 +510,7 @@ Create:
 ```bash
 git add .
 git commit -m "seed registry v1.0.0"
-git push origin main
+git push origin master
 git tag v1.0.0
 git push origin v1.0.0
 ```
@@ -548,7 +548,14 @@ npx rh-mi list
 Import from `src/icons` and render in UI.
 
 ### 9) Add automated refresh ✅ Done
-Set GitHub Actions in the same repo to regenerate registry data and tag new versions.
+Set GitHub Actions in the same repo to regenerate **all icons** and tag new versions.
+Schedule: **1st day of every month**.
+
+Current implementation:
+1. Scraper reads Google Material codepoints source each run.
+2. Scraper fetches all available icons by default (no `--limit`).
+3. Monthly workflow runs full refresh with concurrent scraping.
+4. New icons are auto-included on the next scheduled run.
 
 ### 10) Publish runtime + CLI packages ⏳ Pending npm credentials
 Publish is wired in workflow and will run from the same repo when `NPM_TOKEN` is configured.

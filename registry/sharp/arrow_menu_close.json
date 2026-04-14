@@ -1,0 +1,14 @@
+{
+  "name": "arrow_menu_close",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M440-280v-400L240-480l200 200Zm80 160h80v-720h-80v720Z",
+    "fill1": "M440-280v-400L240-480l200 200Zm80 160h80v-720h-80v720Z"
+  },
+  "tags": [
+    "arrow",
+    "menu",
+    "close"
+  ]
+}

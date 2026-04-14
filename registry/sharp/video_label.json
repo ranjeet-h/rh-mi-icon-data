@@ -1,0 +1,13 @@
+{
+  "name": "video_label",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-160v-640h800v640H80Zm80-200h640v-360H160v360Z",
+    "fill1": "M80-160v-640h800v640H80Zm80-200h640v-360H160v360Z"
+  },
+  "tags": [
+    "video",
+    "label"
+  ]
+}

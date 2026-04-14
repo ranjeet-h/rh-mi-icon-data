@@ -1,0 +1,13 @@
+{
+  "name": "chevron_backward",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z",
+    "fill1": "M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"
+  },
+  "tags": [
+    "chevron",
+    "backward"
+  ]
+}

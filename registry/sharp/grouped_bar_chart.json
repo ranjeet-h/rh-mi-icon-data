@@ -1,0 +1,14 @@
+{
+  "name": "grouped_bar_chart",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M160-160v-480h160v480H160Zm200 0v-280h160v280H360Zm280 0v-640h160v640H640Z",
+    "fill1": "M160-160v-480h160v480H160Zm200 0v-280h160v280H360Zm280 0v-640h160v640H640Z"
+  },
+  "tags": [
+    "grouped",
+    "bar",
+    "chart"
+  ]
+}

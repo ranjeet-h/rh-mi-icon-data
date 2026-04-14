@@ -1,0 +1,13 @@
+{
+  "name": "vertical_split",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-360v-80h320v80H120Zm0 160v-80h320v80H120Zm0-320v-80h320v80H120Zm0-160v-80h320v80H120Zm400 480v-560h320v560H520Zm80-80h160v-400H600v400Zm80-200Z",
+    "fill1": "M120-360v-80h320v80H120Zm0 160v-80h320v80H120Zm0-320v-80h320v80H120Zm0-160v-80h320v80H120Zm400 480v-560h320v560H520Z"
+  },
+  "tags": [
+    "vertical",
+    "split"
+  ]
+}

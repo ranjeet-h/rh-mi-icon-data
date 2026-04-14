@@ -1,0 +1,14 @@
+{
+  "name": "align_horizontal_left",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-80v-800h80v800H80Zm160-200v-120h400v120H240Zm0-280v-120h640v120H240Z",
+    "fill1": "M80-80v-800h80v800H80Zm160-200v-120h400v120H240Zm0-280v-120h640v120H240Z"
+  },
+  "tags": [
+    "align",
+    "horizontal",
+    "left"
+  ]
+}

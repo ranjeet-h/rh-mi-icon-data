@@ -1,0 +1,13 @@
+{
+  "name": "stylus_highlighter",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M280-320v-520h99l301 149v371H280Zm80-80h240v-241L360-760v360ZM160-120l40-120h560l40 120H160Zm200-280h240-240Z",
+    "fill1": "M280-320v-520h99l301 149v371H280ZM160-120l40-120h560l40 120H160Z"
+  },
+  "tags": [
+    "stylus",
+    "highlighter"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "calendar_view_month",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M160-520h160v-200H160v200Zm240 0h160v-200H400v200Zm240 0h160v-200H640v200ZM160-240h160v-200H160v200Zm240 0h160v-200H400v200Zm240 0h160v-200H640v200ZM80-160v-640h800v640H80Z",
+    "fill1": "M120-500v-260h213v260H120Zm253 0v-260h214v260H373Zm254 0v-260h213v260H627ZM120-200v-260h213v260H120Zm253 0v-260h214v260H373Zm254 0v-260h213v260H627Z"
+  },
+  "tags": [
+    "calendar",
+    "view",
+    "month"
+  ]
+}

@@ -8,7 +8,7 @@ on:
         required: false
         default: ""
   schedule:
-    - cron: "0 2 * * 1"
+    - cron: "0 2 1 * *"
 
 permissions:
   contents: write
@@ -33,12 +33,13 @@ jobs:
       - name: Scrape icons
         run: |
           if [ -n "${{ github.event.inputs.limit }}" ]; then
-            npm run scrape -- --limit=${{ github.event.inputs.limit }}
+            npm run scrape -- --limit=${{ github.event.inputs.limit }} --concurrency=32 --retries=3
           else
-            npm run scrape
+            npm run scrape -- --concurrency=32 --retries=3
           fi
 
       - name: Commit registry updates
+        id: commit_registry
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "github-actions[bot]"
@@ -46,13 +47,15 @@ jobs:
             git add registry
             git commit -m "chore: refresh icon registry"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "No registry changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Tag registry version
+        if: steps.commit_registry.outputs.changed == 'true'
         run: |
           TAG="v$(date +'%Y.%m.%d.%H%M')"
           git tag "${TAG}"
           git push origin "${TAG}"
-

@@ -1,0 +1,15 @@
+{
+  "name": "line_start_arrow_notch",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M520-200 80-480l440-280-137 240h497v80H383l137 240Z",
+    "fill1": "M520-200 80-480l440-280-137 240h497v80H383l137 240Z"
+  },
+  "tags": [
+    "line",
+    "start",
+    "arrow",
+    "notch"
+  ]
+}

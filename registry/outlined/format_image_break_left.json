@@ -1,0 +1,15 @@
+{
+  "name": "format_image_break_left",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-120v-80h720v80H120Zm0-160v-400h400v400H120Zm80-80h240v-240H200v240Zm-80-400v-80h720v80H120Zm200 280Z",
+    "fill1": "M120-120v-80h720v80H120Zm0-160v-400h400v400H120Zm0-480v-80h720v80H120Z"
+  },
+  "tags": [
+    "format",
+    "image",
+    "break",
+    "left"
+  ]
+}

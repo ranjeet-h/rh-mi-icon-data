@@ -1,0 +1,15 @@
+{
+  "name": "picture_in_picture_medium",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M320-320v-320h400v320H320ZM80-160v-80h720v-560h80v640H80Z",
+    "fill1": "M320-320v-320h400v320H320ZM80-160v-80h720v-560h80v640H80Z"
+  },
+  "tags": [
+    "picture",
+    "in",
+    "picture",
+    "medium"
+  ]
+}

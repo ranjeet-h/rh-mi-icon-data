@@ -1,0 +1,14 @@
+{
+  "name": "vertical_shades_closed",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M80-120v-80h80v-640h640v640h80v80H80Zm160-80h60v-560h-60v560Zm140 0h60v-560h-60v560Zm140 0h60v-560h-60v560Zm140 0h60v-560h-60v560Z",
+    "fill1": "M80-120v-80h80v-640h640v640h80v80H80Zm160-80h60v-560h-60v560Zm140 0h60v-560h-60v560Zm140 0h60v-560h-60v560Zm140 0h60v-560h-60v560Z"
+  },
+  "tags": [
+    "vertical",
+    "shades",
+    "closed"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "signal_cellular_2_bar",
+  "style": "outlined",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "m80-80 800-800v800H80Zm440-80h280v-526L520-406v246Z",
+    "fill1": "m80-80 800-800v800H80Zm440-80h280v-526L520-406v246Z"
+  },
+  "tags": [
+    "signal",
+    "cellular",
+    "2",
+    "bar"
+  ]
+}

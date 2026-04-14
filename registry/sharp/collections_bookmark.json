@@ -1,0 +1,13 @@
+{
+  "name": "collections_bookmark",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M320-320h480v-480h-80v280l-100-60-100 60v-280H320v480Zm-80 80v-640h640v640H240ZM80-80v-640h80v560h560v80H80Zm240-720v480-480Zm200 280 100-60 100 60-100-60-100 60Z",
+    "fill1": "M240-240v-640h640v640H240ZM80-80v-640h80v560h560v80H80Zm440-720v280l100-60 100 60v-280H520Z"
+  },
+  "tags": [
+    "collections",
+    "bookmark"
+  ]
+}

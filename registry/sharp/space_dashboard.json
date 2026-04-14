@@ -1,0 +1,13 @@
+{
+  "name": "space_dashboard",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M120-120v-720h720v720H120Zm80-80h240v-560H200v560Zm320 0h240v-280H520v280Zm0-360h240v-200H520v200Z",
+    "fill1": "M120-120v-720h320v720H120Zm400-440v-280h320v280H520Zm320 440H520v-360h320v360Z"
+  },
+  "tags": [
+    "space",
+    "dashboard"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "picture_in_picture_mobile",
+  "style": "sharp",
+  "viewBox": "0 -960 960 960",
+  "paths": {
+    "fill0": "M800-80H160v-800h640v800Zm-80-80v-640H240v640h480Zm0-640H240h480Zm-40 360v-320H440v320h240Zm-80-80h-80v-160h80v160Z",
+    "fill1": "M800-80H160v-800h640v800ZM680-440v-320H440v320h240Z"
+  },
+  "tags": [
+    "picture",
+    "in",
+    "picture",
+    "mobile"
+  ]
+}
