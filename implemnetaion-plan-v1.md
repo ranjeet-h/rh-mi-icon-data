@@ -354,7 +354,7 @@ npx rh-mi list
 
 ## 10. Definition of Done (v1)
 
-1. `rh-mi-react` and `rh-mi-cli` are build-ready and local publish flow is configured (actual publish requires npm credentials).
+1. `rh-mi-react` and `rh-mi-cli` are published (`0.1.0`) and local publish flow is configured.
 2. `rh-mi-icon-data` serves tagged static icon data via jsDelivr and holds package source.
 3. `npx rh-mi init` and `npx rh-mi add` work in a clean React project.
 4. Generated icon components are typed and CSS-friendly.

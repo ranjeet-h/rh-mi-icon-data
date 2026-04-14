@@ -454,11 +454,11 @@ rh-mi-icon:
 4. Implement TSX generator + barrel updater.
 5. Add local cache to reduce repeated downloads.
 
-### Phase 5: Runtime Package ✅ Done (publish pending npm credentials)
+### Phase 5: Runtime Package ✅ Done
 1. Implement `SvgIcon` with CSS-friendly defaults.
 2. Implement `IconProps` typing for variants.
 3. Implement optional `IconProvider` context defaults.
-4. Publish stable versions (pending npm credentials).
+4. Publish stable versions.
 
 ### Phase 6: Local Release Automation ✅ Done
 1. Single repo local release script:
@@ -556,8 +556,10 @@ Current implementation:
 3. Monthly local cron runs full refresh with concurrent scraping.
 4. New icons are auto-included on the next scheduled run.
 
-### 10) Publish runtime + CLI packages ⏳ Manual publish required
-Publish directly from local machine or with `scripts/local-release.sh --publish`.
+### 10) Publish runtime + CLI packages ✅ Done
+Published manually from local machine:
+1. `rh-mi-react@0.1.0`
+2. `rh-mi-cli@0.1.0`
 
 ---
 
