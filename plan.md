@@ -172,10 +172,10 @@ npx rh-mi init
 
 ```text
 Step 1: Read rh-mi.config.json
-        (owner=ranjeet-h, repo=rh-mi-icon-data, ref=v1.0.0)
+        (owner=ranjeet-h, repo=rh-mi-icon-data, ref=v1.1.0)
 
 Step 2: Build CDN URL(s), for example:
-        https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.0.0/registry/rounded/arrow_back.json
+        https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.1.0/registry/rounded/arrow_back.json
 
 Step 3: Fetch JSON for requested style variants
         (rounded/outlined/sharp + fill0/fill1 path data)
@@ -327,10 +327,10 @@ registry/
 
 ```text
 # metadata
-https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.0.0/registry/metadata.json
+https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.1.0/registry/metadata.json
 
 # single icon variant
-https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.0.0/registry/rounded/arrow_back.json
+https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.1.0/registry/rounded/arrow_back.json
 
 # dev ref (non-production)
 https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@master/registry/metadata.json
@@ -454,11 +454,11 @@ rh-mi-icon:
 4. Implement TSX generator + barrel updater.
 5. Add local cache to reduce repeated downloads.
 
-### Phase 5: Runtime Package ✅ Done
+### Phase 5: Runtime Package ✅ Done (publish pending npm credentials)
 1. Implement `SvgIcon` with CSS-friendly defaults.
 2. Implement `IconProps` typing for variants.
 3. Implement optional `IconProvider` context defaults.
-4. Publish stable versions.
+4. Publish stable versions (pending npm credentials).
 
 ### Phase 6: CI/CD Automation ✅ Done
 1. Single repo workflow set:
@@ -509,16 +509,16 @@ Create:
 
 ```bash
 git add .
-git commit -m "seed registry v1.0.0"
+git commit -m "seed registry v1.1.0"
 git push origin master
-git tag v1.0.0
-git push origin v1.0.0
+git tag v1.1.0
+git push origin v1.1.0
 ```
 
 ### 5) Confirm CDN URL works ✅ Done
 
 ```text
-https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.0.0/registry/rounded/arrow_back.json
+https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.1.0/registry/rounded/arrow_back.json
 ```
 
 ### 6) Create consumer config format ✅ Done
@@ -529,7 +529,7 @@ In app root, create `rh-mi.config.json`:
   "registry": {
     "owner": "ranjeet-h",
     "repo": "rh-mi-icon-data",
-    "ref": "v1.0.0"
+    "ref": "v1.1.0"
   },
   "iconsDir": "src/icons"
 }

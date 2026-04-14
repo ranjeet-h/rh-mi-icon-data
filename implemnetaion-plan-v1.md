@@ -84,7 +84,7 @@ registry/
 https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@<ref>/registry/<style>/<icon>.json
 ```
 
-Use tag refs (`v1.0.0`) for stable builds.
+Use tag refs (`v1.1.0`) for stable builds.
 
 ---
 
@@ -143,7 +143,7 @@ registry/
 1. Create `registry/` structure.
 2. Add initial `metadata.json` and `aliases.json`.
 3. Add sample icon JSON for each style.
-4. Tag first release (`v1.0.0`).
+4. Tag first release (`v1.1.0`).
 5. Verify jsDelivr URLs.
 
 ### Deliverables
@@ -289,7 +289,7 @@ registry/
   "registry": {
     "owner": "ranjeet-h",
     "repo": "rh-mi-icon-data",
-    "ref": "v1.0.0"
+    "ref": "v1.1.0"
   },
   "iconsDir": "src/icons"
 }
@@ -314,14 +314,14 @@ touch registry/metadata.json registry/aliases.json
 git add .
 git commit -m "seed registry"
 git push origin master
-git tag v1.0.0
-git push origin v1.0.0
+git tag v1.1.0
+git push origin v1.1.0
 ```
 
 ### 8.2 Validate CDN
 
 ```text
-https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.0.0/registry/rounded/arrow_back.json
+https://cdn.jsdelivr.net/gh/ranjeet-h/rh-mi-icon-data@v1.1.0/registry/rounded/arrow_back.json
 ```
 
 ### 8.3 Consumer app flow
