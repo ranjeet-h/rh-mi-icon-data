@@ -90,7 +90,79 @@ Create `rh-mi.config.json` in app root:
 
 ---
 
-## 6) Publish packages
+## 6) Use in another React project (from scratch)
+
+### Step 1: Create a React app
+
+```bash
+npm create vite@latest my-rh-icons-app -- --template react-ts
+cd my-rh-icons-app
+npm install
+```
+
+### Step 2: Install packages
+
+```bash
+npm install rh-mi-react
+npm install -D rh-mi-cli
+```
+
+### Step 3: Initialize icon setup
+
+```bash
+npx rh-mi init
+```
+
+### Step 4: Point config to your registry
+
+Edit `rh-mi.config.json`:
+
+```json
+{
+  "registry": {
+    "owner": "ranjeet-h",
+    "repo": "rh-mi-icon-data",
+    "ref": "v1.1.0"
+  },
+  "iconsDir": "src/icons",
+  "cacheDir": ".cache/rh-mi"
+}
+```
+
+### Step 5: Add icons you need
+
+```bash
+npx rh-mi add search home arrow_back --all-styles
+```
+
+This generates:
+1. `src/icons/Search.tsx`
+2. `src/icons/Home.tsx`
+3. `src/icons/ArrowBack.tsx`
+4. `src/icons/index.ts`
+
+### Step 6: Use icons in your app
+
+```tsx
+// src/App.tsx
+import { IconProvider } from 'rh-mi-react'
+import { Search, Home } from './icons'
+
+export default function App() {
+  return (
+    <IconProvider defaults={{ iconStyle: 'rounded', fill: 0 }}>
+      <div style={{ display: 'flex', gap: 12 }}>
+        <Search className="text-blue-500" />
+        <Home style={{ color: '#0ea5e9', fontSize: 24 }} />
+      </div>
+    </IconProvider>
+  )
+}
+```
+
+---
+
+## 7) Publish packages
 
 Dry-run checks:
 
@@ -106,11 +178,10 @@ Real publish happens via workflow:
 
 ---
 
-## 7) Validate everything
+## 8) Validate everything
 
 ```bash
 npm run lint
 npm run build
 npm run test
 ```
-
