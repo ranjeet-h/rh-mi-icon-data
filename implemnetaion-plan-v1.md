@@ -29,7 +29,7 @@ Build `rh-mi-icon` as a zero-server-cost icon system where:
 Upstream Material SVGs
         |
         v
-Scraper/Generator (local + GitHub Actions)
+Scraper/Generator (local scripts + optional cron)
         |
         v
 ranjeet-h/rh-mi-icon-data (JSON registry)
@@ -235,27 +235,28 @@ registry/
 
 ---
 
-## Phase 6 — CI/CD and Publishing ✅ Done
+## Phase 6 — Local Release and Publishing ✅ Done
 
 ### Tasks
-1. In `rh-mi-icon-data`, add workflow for registry generation:
+1. In `rh-mi-icon-data`, add local release script to:
    1. run scraper
    2. update `registry/`
    3. commit changes
    4. create/push version tag
-   5. schedule monthly full sync on the 1st day
-2. In the same repo, add workflow for package release:
+   5. verify jsDelivr URLs
+2. In the same repo, support manual local package release:
    1. install deps
    2. lint/build/test
-   3. publish `rh-mi-react` and `rh-mi-cli` on release tag
+   3. publish `rh-mi-react` and `rh-mi-cli`
+3. Document local monthly schedule on 1st day (cron).
 
 ### Deliverables
-1. Automated single-repo data and package release pipeline.
+1. Scripted single-repo local data and package release flow.
 
 ### Exit Criteria
 1. Tagging `rh-mi-icon-data` produces jsDelivr-consumable registry version.
-2. Release workflow in the same repo publishes both packages.
-3. Monthly scheduled run auto-detects and syncs newly added icons.
+2. Local publish command publishes both packages.
+3. Monthly local run auto-detects and syncs newly added icons.
 
 ---
 
@@ -353,7 +354,7 @@ npx rh-mi list
 
 ## 10. Definition of Done (v1)
 
-1. `rh-mi-react` and `rh-mi-cli` are build-ready and publish workflow is configured (actual publish requires npm credentials).
+1. `rh-mi-react` and `rh-mi-cli` are build-ready and local publish flow is configured (actual publish requires npm credentials).
 2. `rh-mi-icon-data` serves tagged static icon data via jsDelivr and holds package source.
 3. `npx rh-mi init` and `npx rh-mi add` work in a clean React project.
 4. Generated icon components are typed and CSS-friendly.

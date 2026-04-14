@@ -39,14 +39,24 @@ npm run scrape -- --force --concurrency=32 --retries=3
 
 ---
 
-## 3) Monthly auto-update
+## 3) Full local release script (recommended)
 
-GitHub Actions workflow:
-1. File: `.github/workflows/refresh-registry.yml`
-2. Schedule: `0 2 1 * *` (1st day of every month)
-3. Behavior: full scrape, commit changes, push, create new version tag
+Use this to run everything locally:
+1. scrape all icons
+2. run lint/build/test
+3. commit `registry/` changes
+4. push branch + tag
+5. verify jsDelivr URLs
 
-You can also trigger it manually from GitHub Actions UI (`workflow_dispatch`).
+```bash
+bash scripts/local-release.sh --tag v1.2.0
+```
+
+Useful options:
+1. `--concurrency 32 --retries 3` -> fast, stable scraping
+2. `--skip-git` -> run without commit/tag/push
+3. `--skip-cdn-check` -> skip jsDelivr verification
+4. `--publish` -> publish `rh-mi-react` and `rh-mi-cli` from local machine
 
 ---
 
@@ -162,7 +172,7 @@ export default function App() {
 
 ---
 
-## 7) Publish packages
+## 7) Publish packages (manual)
 
 Dry-run checks:
 
@@ -171,10 +181,20 @@ cd packages/rh-mi-react && npm publish --dry-run
 cd ../rh-mi-cli && npm publish --dry-run
 ```
 
-Real publish happens via workflow:
-1. Set repo secret: `NPM_TOKEN`
-2. Push a release tag (example `v1.1.0`)
-3. Workflow `.github/workflows/release-packages.yml` runs build/test and publish
+Publish directly from local:
+
+```bash
+cd packages/rh-mi-react && npm publish --access public
+cd ../rh-mi-cli && npm publish --access public
+```
+
+Or publish as part of local release script:
+
+```bash
+bash scripts/local-release.sh --tag v1.2.0 --publish
+```
+
+If npm account has 2FA for publish, use an automation token or provide OTP when prompted.
 
 ---
 
@@ -184,4 +204,20 @@ Real publish happens via workflow:
 npm run lint
 npm run build
 npm run test
+```
+
+---
+
+## 9) Run monthly on your machine (1st day)
+
+Use cron on your local machine/server:
+
+```bash
+crontab -e
+```
+
+Add:
+
+```cron
+0 2 1 * * cd /absolute/path/to/rh-mi-icon-data && /bin/bash scripts/local-release.sh >> /tmp/rh-mi-monthly.log 2>&1
 ```

@@ -287,7 +287,7 @@ import { IconProvider } from 'rh-mi-react'
 |   +-- sharp/
 +-- scripts/
 |   +-- scraper/
-+-- .github/workflows/
++-- scripts/local-release.sh
 ```
 
 ---
@@ -460,15 +460,15 @@ rh-mi-icon:
 3. Implement optional `IconProvider` context defaults.
 4. Publish stable versions (pending npm credentials).
 
-### Phase 6: CI/CD Automation ✅ Done
-1. Single repo workflow set:
+### Phase 6: Local Release Automation ✅ Done
+1. Single repo local release script:
    - run scraper
    - update registry files
    - commit + push
    - create tag
-2. In the same repo:
-   - build/test packages
-   - publish `rh-mi-react` and `rh-mi-cli` on release tag
+   - verify jsDelivr URLs
+2. Optional from local script:
+   - publish `rh-mi-react` and `rh-mi-cli`
 
 ### Phase 7: Consumer Validation ✅ Done
 1. Test in clean React app.
@@ -548,17 +548,16 @@ npx rh-mi list
 Import from `src/icons` and render in UI.
 
 ### 9) Add automated refresh ✅ Done
-Set GitHub Actions in the same repo to regenerate **all icons** and tag new versions.
-Schedule: **1st day of every month**.
+Set local cron on your machine/server to run local release script on the **1st day of every month**.
 
 Current implementation:
 1. Scraper reads Google Material codepoints source each run.
 2. Scraper fetches all available icons by default (no `--limit`).
-3. Monthly workflow runs full refresh with concurrent scraping.
+3. Monthly local cron runs full refresh with concurrent scraping.
 4. New icons are auto-included on the next scheduled run.
 
-### 10) Publish runtime + CLI packages ⏳ Pending npm credentials
-Publish is wired in workflow and will run from the same repo when `NPM_TOKEN` is configured.
+### 10) Publish runtime + CLI packages ⏳ Manual publish required
+Publish directly from local machine or with `scripts/local-release.sh --publish`.
 
 ---
 

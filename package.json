@@ -11,7 +11,8 @@
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
     "scrape": "node scripts/scraper/scrape-icons.mjs",
-    "seed:sample": "node scripts/scraper/seed-sample.mjs"
+    "seed:sample": "node scripts/scraper/seed-sample.mjs",
+    "release:local": "bash scripts/local-release.sh"
   },
   "devDependencies": {
     "@types/node": "^22.15.30",
