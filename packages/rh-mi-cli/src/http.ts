@@ -10,7 +10,7 @@ export class HttpError extends Error {
 }
 
 export const fetchText = async (url: string): Promise<string> => {
-  const response = await fetch(url);
+  const response = await fetch(url, { signal: AbortSignal.timeout(30_000) });
   if (!response.ok) {
     throw new HttpError(`Request failed (${response.status}) for ${url}`, response.status, url);
   }

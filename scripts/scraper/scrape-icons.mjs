@@ -100,7 +100,7 @@ Examples:
 };
 
 const fetchCodepointNames = async () => {
-  const response = await fetch(ICON_SOURCE_URL);
+  const response = await fetch(ICON_SOURCE_URL, { signal: AbortSignal.timeout(30_000) });
   if (!response.ok) {
     throw new Error(`Failed to fetch icon list (${response.status})`);
   }
@@ -130,7 +130,7 @@ const fetchTextWithRetry = async (url, retries) => {
   let attempt = 0;
   while (true) {
     try {
-      const response = await fetch(url);
+      const response = await fetch(url, { signal: AbortSignal.timeout(30_000) });
       if (!response.ok) {
         throw new FetchStatusError(`Request failed (${response.status}) for ${url}`, response.status);
       }

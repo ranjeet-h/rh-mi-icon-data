@@ -2,6 +2,7 @@
   "name": "rh-mi-cli",
   "version": "0.1.0",
   "description": "CLI for generating Material Symbol icon components on demand",
+  "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

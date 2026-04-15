@@ -103,6 +103,11 @@ AUTHOR_EMAIL="$(git -C "$REPO_ROOT" config user.email || true)"
 if [[ -z "$AUTHOR_NAME" ]]; then AUTHOR_NAME="local-deploy"; fi
 if [[ -z "$AUTHOR_EMAIL" ]]; then AUTHOR_EMAIL="local-deploy@example.com"; fi
 
+if [[ "$PAGES_BRANCH" == "master" || "$PAGES_BRANCH" == "main" ]]; then
+  echo "Error: refusing to force-push to protected branch '$PAGES_BRANCH'" >&2
+  exit 1
+fi
+
 echo "==> Publishing to $REPO_SLUG:$PAGES_BRANCH"
 (
   cd "$TMP_DEPLOY_DIR"

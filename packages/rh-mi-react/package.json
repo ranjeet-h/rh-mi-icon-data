@@ -2,6 +2,7 @@
   "name": "rh-mi-react",
   "version": "0.1.0",
   "description": "Tiny React runtime for generated rh-mi icons",
+  "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",

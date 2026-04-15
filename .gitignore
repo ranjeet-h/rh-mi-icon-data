@@ -4,3 +4,13 @@ dist/
 .cache/
 coverage/
 
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+npm-debug.log*
+

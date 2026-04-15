@@ -8,7 +8,7 @@ const DEFAULT_CONFIG: RhMiConfig = {
   registry: {
     owner: 'ranjeet-h',
     repo: 'rh-mi-icon-data',
-    ref: 'master',
+    ref: 'v1.2.0',
   },
   iconsDir: 'src/icons',
   cacheDir: '.cache/rh-mi',
@@ -33,7 +33,12 @@ export const getDefaultConfig = (): RhMiConfig => ({ ...DEFAULT_CONFIG, registry
 export const readConfig = async (cwd: string): Promise<RhMiConfig> => {
   const filePath = configPathFor(cwd);
   const raw = await readFile(filePath, 'utf8');
-  const parsed = JSON.parse(raw) as Partial<RhMiConfig>;
+  let parsed: Partial<RhMiConfig>;
+  try {
+    parsed = JSON.parse(raw) as Partial<RhMiConfig>;
+  } catch {
+    throw new Error(`Invalid JSON in config file: ${filePath}`);
+  }
   return mergeConfig(parsed);
 };
 
